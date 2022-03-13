@@ -19,7 +19,7 @@ nav ul {
 }
 
 #contents, #favs, #facts, #types {
-  color: #93a1a1
+  color: #93a1a1;
 }
 
 .wrapper > .dfn {
@@ -55,5 +55,5 @@ ol li :last-of-type {
 }
 
 .types li :nth-child(3n) {
-  background-color: #do4b16;
+  background-color: #d04b16;
 }
