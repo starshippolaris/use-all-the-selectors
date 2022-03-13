@@ -27,7 +27,7 @@ nav ul {
 }
 
 strong + p {
-  color: #fff
+  color: #fff;
 }
 
 a :not(.no-highlight) {
