@@ -1,4 +1,8 @@
 html {
+  box-sizing: 1.5
+}
+
+body {
   background-color: #fdf6e3;
 }
 
