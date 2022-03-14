@@ -55,11 +55,11 @@ ol li :last-of-type {
   color: #2aa198;
 }
 
-li:nth-child(odd) {
+.types :nth-child(odd) {
   background-color: #657ba3;
 }
 
-li:nth-child(even) {
+.types :nth-child(even) {
   background-color: #586e75;
 }
 
