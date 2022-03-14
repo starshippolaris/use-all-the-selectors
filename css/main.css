@@ -3,6 +3,9 @@ html {
   line-height: 1.5;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+
 body {
   background-color: #fdf6e3;
 }
@@ -62,3 +65,21 @@ ol li :last-of-type {
 .types li :nth-child(3n) {
   background-color: #d04b16;
 }
+
+
+
+Select body — add background-color: #fdf6e3;
+Select header and footer — add font-size: 1.5rem;
+Select ul inside nav — add font-family: sans-serif;
+Select the logo by class — add text-transform: uppercase;
+Select the class wrapper — add background-color: #eee8d5;
+Select the IDs contents, favs, facts and types — add color: #93a1a1;
+Use a child (or direct descendant) selector to get the .dfn that’s immediately inside the .wrapper (not inside anything else) — add background-color: #b58900;
+Use an adjacent selector to get the strong inside .dfn, the strong that starts “Botanically…” — add color: #fff;
+Select all the a tags, but not the a tags with the class of .no-highlight — add background-color: #719e07;
+Select the link with rel="external" attribute — add background-color: #2694d8;
+Select the first li inside the ol — add color: #719e47;
+Select the last li inside the ol — add color: #2aa198;
+Select every odd li inside .types — add background-color: #657ba3;
+Select every even li inside .types — add background-color: #586e75;
+Select every 3rd li inside .types — add background-color: #d04b16;
