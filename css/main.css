@@ -55,7 +55,7 @@ ol li :last-of-type {
   color: #2aa198;
 }
 
-li:nth-child(odd) {
+.type > li:nth-child(odd) {
   background-color: #657ba3;
 }
 
