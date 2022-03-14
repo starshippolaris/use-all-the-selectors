@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  line-height: 1.3;
+  line-height: 1.1;
 }
 
 *, *::before, *::after {
@@ -55,14 +55,14 @@ ol li :last-of-type {
   color: #2aa198;
 }
 
-.types li :nth-child(odd) {
+li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-.types li :nth-child(even) {
+li:nth-child(even) {
   background-color: #586e75;
 }
 
-.types li :nth-child(3n) {
+li:nth-child(3n) {
   background-color: #d04b16;
 }
