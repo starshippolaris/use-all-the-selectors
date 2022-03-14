@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 *, *::before, *::after {
@@ -55,7 +55,7 @@ ol li :last-of-type {
   color: #2aa198;
 }
 
-.types :nth-child(odd) {
+li:nth-child(odd) {
   background-color: #657ba3;
 }
 
